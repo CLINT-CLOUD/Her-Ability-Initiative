@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gallery | Her Ability Initiative</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="header">
+<a href="index.html" class="brand"><img src="assets/logo.png.jpeg" alt="Logo"><span>HER ABILITY<small>INITIATIVE</small></span></a>
+<button class="menu-toggle" aria-label="Toggle navigation">☰</button>
+<nav class="nav">
+<a href="index.html">Home</a>
+<a href="about.html">About Us</a>
+<a href="programs.html">Our Programs</a>
+<a class="active" href="gallery.html">Gallery</a>
+<a href="get-involved.html">Get Involved</a>
+<a class="nav-button" href="contact.html">Contact Us</a>
+</nav>
+</header>
+
+<section class="page-banner">
+<div class="container">
+<span class="section-label">OUR GALLERY</span>
+<h1>Moments of <span>Hope and Inclusion.</span></h1>
+<p>Discover the people, activities and community experiences behind our mission.</p>
+</div>
+</section>
+
+<section class="section">
+<div class="container">
+<div class="filter-buttons">
+<button class="filter-btn active" data-filter="all">All Photos</button>
+<button class="filter-btn" data-filter="community">Community</button>
+<button class="filter-btn" data-filter="education">Education</button>
+<button class="filter-btn" data-filter="empowerment">Empowerment</button>
+<button class="filter-btn" data-filter="inclusion">Inclusion</button>
+<button class="filter-btn" data-filter="environment">Environment</button>
+</div>
+
+<div class="gallery-grid">
+
+<div class="gallery-item" data-category="community">
+<img src="assets/gallery/IMG_6761.jpg" alt="Community activity">
+<div class="gallery-caption">Community Engagement</div>
+</div>
+
+<div class="gallery-item" data-category="education">
+<img src="assets/gallery/education.jpeg" alt="Education activity">
+<div class="gallery-caption">Education Support</div>
+</div>
+
+<div class="gallery-item" data-category="empowerment">
+<img src="assets/gallery/economic.JPG" alt="Economic empowerment">
+<div class="gallery-caption">Economic Empowerment</div>
+</div>
+
+<div class="gallery-item" data-category="inclusion">
+<img src="assets/talk1.jpeg" alt="Disability inclusion">
+<div class="gallery-caption">Disability Inclusion</div>
+</div>
+
+<div class="gallery-item" data-category="environment">
+<img src="assets/gallery/enviroment photo.jpeg" alt="Environmental conservation">
+<div class="gallery-caption">Environmental Action</div>
+</div>
+
+</div>
+</div>
+</section>
+
+<div class="image-viewer" id="imageViewer">
+<button class="viewer-close" aria-label="Close image">&times;</button>
+<img src="" alt="Gallery image" id="viewerImage">
+</div>
+
+<footer class="footer">
+<div class="copyright">© <span class="year"></span> Her Ability Initiative. All rights reserved.</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
